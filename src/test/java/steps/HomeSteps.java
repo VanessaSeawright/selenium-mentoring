@@ -11,5 +11,10 @@ public class HomeSteps {
         homepage.open();
         homepage.clicarEmLogin();
     }
+
+    public void irParaPaginaDeCheckbox() {
+        homepage.open();
+        homepage.ClicarLinkCheckboxes();
+    }
 }
 
